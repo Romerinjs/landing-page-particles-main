@@ -1,6 +1,3 @@
-## VIDEO COMPLETO EN YOUTUBE
-https://youtu.be/HMbzJaBi4OU
-
 ## Getting Started
 
 First, run the development server:

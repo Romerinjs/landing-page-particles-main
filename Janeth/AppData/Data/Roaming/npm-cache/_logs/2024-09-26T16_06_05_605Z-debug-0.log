@@ -1,0 +1,931 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Janeth\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\Janeth\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\.npmrc
+5 silly config load:file:C:\Users\Janeth\.npmrc
+6 silly config load:file:C:\Users\Janeth\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\Janeth\AppData\Data\Roaming\npm-cache\_logs\2024-09-26T16_06_05_605Z-
+10 verbose logfile C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\Janeth\AppData\Data\Roaming\npm-cache\_logs\2024-09-26T16_06_05_605Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@aashutoshrathi/word-wrap': [ '1.2.6' ],
+15 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+15 silly audit   '@babel/runtime': [ '7.23.9' ],
+15 silly audit   '@emotion/is-prop-valid': [ '0.8.8' ],
+15 silly audit   '@emotion/memoize': [ '0.7.4' ],
+15 silly audit   '@eslint-community/eslint-utils': [ '4.4.0' ],
+15 silly audit   '@eslint-community/regexpp': [ '4.10.0' ],
+15 silly audit   '@eslint/eslintrc': [ '2.1.4' ],
+15 silly audit   '@eslint/js': [ '8.56.0' ],
+15 silly audit   '@humanwhocodes/config-array': [ '0.11.14' ],
+15 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+15 silly audit   '@humanwhocodes/object-schema': [ '2.0.2' ],
+15 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+15 silly audit   'ansi-regex': [ '6.0.1', '5.0.1' ],
+15 silly audit   'strip-ansi': [ '7.1.0', '6.0.1' ],
+15 silly audit   '@jridgewell/gen-mapping': [ '0.3.3' ],
+15 silly audit   '@jridgewell/resolve-uri': [ '3.1.1' ],
+15 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+15 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ],
+15 silly audit   '@jridgewell/trace-mapping': [ '0.3.22' ],
+15 silly audit   '@next/env': [ '14.2.13' ],
+15 silly audit   '@next/eslint-plugin-next': [ '14.1.0' ],
+15 silly audit   '@next/swc-darwin-arm64': [ '14.2.13' ],
+15 silly audit   '@next/swc-darwin-x64': [ '14.2.13' ],
+15 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.13' ],
+15 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.13' ],
+15 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.13' ],
+15 silly audit   '@next/swc-linux-x64-musl': [ '14.2.13' ],
+15 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.13' ],
+15 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.13' ],
+15 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.13' ],
+15 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+15 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+15 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+15 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+15 silly audit   '@rushstack/eslint-patch': [ '1.7.2' ],
+15 silly audit   '@swc/counter': [ '0.1.3' ],
+15 silly audit   '@swc/helpers': [ '0.5.5' ],
+15 silly audit   '@tsparticles/basic': [ '3.2.1' ],
+15 silly audit   '@tsparticles/engine': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-attract': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-bounce': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-bubble': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-connect': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-grab': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-pause': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-push': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-remove': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-repulse': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-slow': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-external-trail': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-particles-attract': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-particles-collisions': [ '3.2.1' ],
+15 silly audit   '@tsparticles/interaction-particles-links': [ '3.2.1' ],
+15 silly audit   '@tsparticles/move-base': [ '3.2.1' ],
+15 silly audit   '@tsparticles/move-parallax': [ '3.2.1' ],
+15 silly audit   '@tsparticles/plugin-absorbers': [ '3.2.1' ],
+15 silly audit   '@tsparticles/plugin-easing-quad': [ '3.2.1' ],
+15 silly audit   '@tsparticles/plugin-emitters': [ '3.2.1' ],
+15 silly audit   '@tsparticles/plugin-emitters-shape-circle': [ '3.2.1' ],
+15 silly audit   '@tsparticles/plugin-emitters-shape-square': [ '3.2.1' ],
+15 silly audit   '@tsparticles/react': [ '3.0.0' ],
+15 silly audit   '@tsparticles/shape-circle': [ '3.2.1' ],
+15 silly audit   '@tsparticles/shape-emoji': [ '3.2.1' ],
+15 silly audit   '@tsparticles/shape-image': [ '3.2.1' ],
+15 silly audit   '@tsparticles/shape-line': [ '3.2.1' ],
+15 silly audit   '@tsparticles/shape-polygon': [ '3.2.1' ],
+15 silly audit   '@tsparticles/shape-square': [ '3.2.1' ],
+15 silly audit   '@tsparticles/shape-star': [ '3.2.1' ],
+15 silly audit   '@tsparticles/shape-text': [ '3.2.1' ],
+15 silly audit   '@tsparticles/slim': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-color': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-destroy': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-life': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-opacity': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-out-modes': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-roll': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-rotate': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-size': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-stroke-color': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-tilt': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-twinkle': [ '3.2.1' ],
+15 silly audit   '@tsparticles/updater-wobble': [ '3.2.1' ],
+15 silly audit   '@types/json5': [ '0.0.29' ],
+15 silly audit   '@types/node': [ '20.11.17' ],
+15 silly audit   '@types/prop-types': [ '15.7.11' ],
+15 silly audit   '@types/react': [ '18.2.55' ],
+15 silly audit   '@types/react-dom': [ '18.2.19' ],
+15 silly audit   '@types/react-vertical-timeline-component': [ '3.3.6' ],
+15 silly audit   '@types/scheduler': [ '0.16.8' ],
+15 silly audit   '@typescript-eslint/parser': [ '6.21.0' ],
+15 silly audit   '@typescript-eslint/scope-manager': [ '6.21.0' ],
+15 silly audit   '@typescript-eslint/types': [ '6.21.0' ],
+15 silly audit   '@typescript-eslint/typescript-estree': [ '6.21.0' ],
+15 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+15 silly audit   minimatch: [ '9.0.3', '3.1.2' ],
+15 silly audit   '@typescript-eslint/visitor-keys': [ '6.21.0' ],
+15 silly audit   '@ungap/structured-clone': [ '1.2.0' ],
+15 silly audit   acorn: [ '8.11.3' ],
+15 silly audit   'acorn-jsx': [ '5.3.2' ],
+15 silly audit   ajv: [ '6.12.6' ],
+15 silly audit   'ansi-styles': [ '4.3.0', '6.2.1' ],
+15 silly audit   'any-promise': [ '1.3.0' ],
+15 silly audit   anymatch: [ '3.1.3' ],
+15 silly audit   arg: [ '5.0.2' ],
+15 silly audit   argparse: [ '2.0.1' ],
+15 silly audit   'aria-query': [ '5.3.0' ],
+15 silly audit   'array-buffer-byte-length': [ '1.0.1' ],
+15 silly audit   'array-includes': [ '3.1.7' ],
+15 silly audit   'array-union': [ '2.1.0' ],
+15 silly audit   'array.prototype.filter': [ '1.0.3' ],
+15 silly audit   'array.prototype.findlastindex': [ '1.2.4' ],
+15 silly audit   'array.prototype.flat': [ '1.3.2' ],
+15 silly audit   'array.prototype.flatmap': [ '1.3.2' ],
+15 silly audit   'array.prototype.tosorted': [ '1.1.3' ],
+15 silly audit   'arraybuffer.prototype.slice': [ '1.0.3' ],
+15 silly audit   'ast-types-flow': [ '0.0.8' ],
+15 silly audit   'asynciterator.prototype': [ '1.0.0' ],
+15 silly audit   autoprefixer: [ '10.4.17' ],
+15 silly audit   'available-typed-arrays': [ '1.0.6' ],
+15 silly audit   'axe-core': [ '4.7.0' ],
+15 silly audit   'axobject-query': [ '3.2.1' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   'binary-extensions': [ '2.2.0' ],
+15 silly audit   braces: [ '3.0.3' ],
+15 silly audit   browserslist: [ '4.22.3' ],
+15 silly audit   busboy: [ '1.6.0' ],
+15 silly audit   'call-bind': [ '1.0.6' ],
+15 silly audit   callsites: [ '3.1.0' ],
+15 silly audit   'camelcase-css': [ '2.0.1' ],
+15 silly audit   'caniuse-lite': [ '1.0.30001585' ],
+15 silly audit   chalk: [ '4.1.2' ],
+15 silly audit   chokidar: [ '3.6.0' ],
+15 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+15 silly audit   'client-only': [ '0.0.1' ],
+15 silly audit   'color-convert': [ '2.0.1' ],
+15 silly audit   'color-name': [ '1.1.4' ],
+15 silly audit   commander: [ '4.1.1' ],
+15 silly audit   'concat-map': [ '0.0.1' ],
+15 silly audit   'countup.js': [ '2.8.0' ],
+15 silly audit   'cross-spawn': [ '7.0.3' ],
+15 silly audit   cssesc: [ '3.0.0' ],
+15 silly audit   csstype: [ '3.1.3' ],
+15 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+15 silly audit   debug: [ '4.3.4', '3.2.7' ],
+15 silly audit   'deep-is': [ '0.1.4' ],
+15 silly audit   'define-data-property': [ '1.1.2' ],
+15 silly audit   'define-properties': [ '1.2.1' ],
+15 silly audit   dequal: [ '2.0.3' ],
+15 silly audit   didyoumean: [ '1.2.2' ],
+15 silly audit   'dir-glob': [ '3.0.1' ],
+15 silly audit   dlv: [ '1.1.3' ],
+15 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+15 silly audit   eastasianwidth: [ '0.2.0' ],
+15 silly audit   'electron-to-chromium': [ '1.4.665' ],
+15 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+15 silly audit   'enhanced-resolve': [ '5.15.0' ],
+15 silly audit   'es-abstract': [ '1.22.3' ],
+15 silly audit   'es-array-method-boxes-properly': [ '1.0.0' ],
+15 silly audit   'es-errors': [ '1.3.0' ],
+15 silly audit   'es-iterator-helpers': [ '1.0.16' ],
+15 silly audit   'es-set-tostringtag': [ '2.0.2' ],
+15 silly audit   'es-shim-unscopables': [ '1.0.2' ],
+15 silly audit   'es-to-primitive': [ '1.2.1' ],
+15 silly audit   escalade: [ '3.1.2' ],
+15 silly audit   'escape-string-regexp': [ '4.0.0' ],
+15 silly audit   eslint: [ '8.56.0' ],
+15 silly audit   'eslint-config-next': [ '14.1.0' ],
+15 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+15 silly audit   'eslint-import-resolver-typescript': [ '3.6.1' ],
+15 silly audit   'eslint-module-utils': [ '2.8.0' ],
+15 silly audit   'eslint-plugin-import': [ '2.29.1' ],
+15 silly audit   semver: [ '6.3.1', '7.6.0' ],
+15 silly audit   'eslint-plugin-jsx-a11y': [ '6.8.0' ],
+15 silly audit   'eslint-plugin-react': [ '7.33.2' ],
+15 silly audit   'eslint-plugin-react-hooks': [ '4.6.0' ],
+15 silly audit   resolve: [ '2.0.0-next.5', '1.22.8' ],
+15 silly audit   'eslint-scope': [ '7.2.2' ],
+15 silly audit   'eslint-visitor-keys': [ '3.4.3' ],
+15 silly audit   espree: [ '9.6.1' ],
+15 silly audit   esquery: [ '1.5.0' ],
+15 silly audit   esrecurse: [ '4.3.0' ],
+15 silly audit   estraverse: [ '5.3.0' ],
+15 silly audit   esutils: [ '2.0.3' ],
+15 silly audit   'fast-deep-equal': [ '3.1.3' ],
+15 silly audit   'fast-glob': [ '3.3.2' ],
+15 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+15 silly audit   'fast-levenshtein': [ '2.0.6' ],
+15 silly audit   fastq: [ '1.17.1' ],
+15 silly audit   'file-entry-cache': [ '6.0.1' ],
+15 silly audit   'fill-range': [ '7.1.1' ],
+15 silly audit   'find-up': [ '5.0.0' ],
+15 silly audit   'flat-cache': [ '3.2.0' ],
+15 silly audit   flatted: [ '3.2.9' ],
+15 silly audit   'for-each': [ '0.3.3' ],
+15 silly audit   'foreground-child': [ '3.1.1' ],
+15 silly audit   'fraction.js': [ '4.3.7' ],
+15 silly audit   'framer-motion': [ '11.0.3' ],
+15 silly audit   'fs.realpath': [ '1.0.0' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   'function.prototype.name': [ '1.1.6' ],
+15 silly audit   'functions-have-names': [ '1.2.3' ],
+15 silly audit   'get-intrinsic': [ '1.2.4' ],
+15 silly audit   'get-symbol-description': [ '1.0.2' ],
+15 silly audit   'get-tsconfig': [ '4.7.2' ],
+15 silly audit   glob: [ '10.3.10', '7.2.3' ],
+15 silly audit   globals: [ '13.24.0' ],
+15 silly audit   globalthis: [ '1.0.3' ],
+15 silly audit   globby: [ '11.1.0' ],
+15 silly audit   gopd: [ '1.0.1' ],
+15 silly audit   'graceful-fs': [ '4.2.11' ],
+15 silly audit   graphemer: [ '1.4.0' ],
+15 silly audit   'has-bigints': [ '1.0.2' ],
+15 silly audit   'has-flag': [ '4.0.0' ],
+15 silly audit   'has-property-descriptors': [ '1.0.1' ],
+15 silly audit   'has-proto': [ '1.0.1' ],
+15 silly audit   'has-symbols': [ '1.0.3' ],
+15 silly audit   'has-tostringtag': [ '1.0.2' ],
+15 silly audit   hasown: [ '2.0.0' ],
+15 silly audit   ignore: [ '5.3.1' ],
+15 silly audit   'import-fresh': [ '3.3.0' ],
+15 silly audit   imurmurhash: [ '0.1.4' ],
+15 silly audit   inflight: [ '1.0.6' ],
+15 silly audit   inherits: [ '2.0.4' ],
+15 silly audit   'internal-slot': [ '1.0.7' ],
+15 silly audit   'is-array-buffer': [ '3.0.4' ],
+15 silly audit   'is-async-function': [ '2.0.0' ],
+15 silly audit   'is-bigint': [ '1.0.4' ],
+15 silly audit   'is-binary-path': [ '2.1.0' ],
+15 silly audit   'is-boolean-object': [ '1.1.2' ],
+15 silly audit   'is-callable': [ '1.2.7' ],
+15 silly audit   'is-core-module': [ '2.13.1' ],
+15 silly audit   'is-date-object': [ '1.0.5' ],
+15 silly audit   'is-extglob': [ '2.1.1' ],
+15 silly audit   'is-finalizationregistry': [ '1.0.2' ],
+15 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+15 silly audit   'is-generator-function': [ '1.0.10' ],
+15 silly audit   'is-glob': [ '4.0.3' ],
+15 silly audit   'is-map': [ '2.0.2' ],
+15 silly audit   'is-negative-zero': [ '2.0.2' ],
+15 silly audit   'is-number': [ '7.0.0' ],
+15 silly audit   'is-number-object': [ '1.0.7' ],
+15 silly audit   'is-path-inside': [ '3.0.3' ],
+15 silly audit   'is-regex': [ '1.1.4' ],
+15 silly audit   'is-set': [ '2.0.2' ],
+15 silly audit   'is-shared-array-buffer': [ '1.0.2' ],
+15 silly audit   'is-string': [ '1.0.7' ],
+15 silly audit   'is-symbol': [ '1.0.4' ],
+15 silly audit   'is-typed-array': [ '1.1.13' ],
+15 silly audit   'is-weakmap': [ '2.0.1' ],
+15 silly audit   'is-weakref': [ '1.0.2' ],
+15 silly audit   'is-weakset': [ '2.0.2' ],
+15 silly audit   isarray: [ '2.0.5' ],
+15 silly audit   isexe: [ '2.0.0' ],
+15 silly audit   'iterator.prototype': [ '1.1.2' ],
+15 silly audit   jackspeak: [ '2.3.6' ],
+15 silly audit   jiti: [ '1.21.0' ],
+15 silly audit   'js-tokens': [ '4.0.0' ],
+15 silly audit   'js-yaml': [ '4.1.0' ],
+15 silly audit   'json-buffer': [ '3.0.1' ],
+15 silly audit   'json-schema-traverse': [ '0.4.1' ],
+15 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+15 silly audit   json5: [ '1.0.2' ],
+15 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+15 silly audit   keyv: [ '4.5.4' ],
+15 silly audit   'language-subtag-registry': [ '0.3.22' ],
+15 silly audit   'language-tags': [ '1.0.9' ],
+15 silly audit   levn: [ '0.4.1' ],
+15 silly audit   lilconfig: [ '2.1.0', '3.0.0' ],
+15 silly audit   'lines-and-columns': [ '1.2.4' ],
+15 silly audit   'locate-path': [ '6.0.0' ],
+15 silly audit   'lodash.merge': [ '4.6.2' ],
+15 silly audit   'loose-envify': [ '1.4.0' ],
+15 silly audit   'lru-cache': [ '10.2.0', '6.0.0' ],
+15 silly audit   'lucide-react': [ '0.323.0' ],
+15 silly audit   merge2: [ '1.4.1' ],
+15 silly audit   micromatch: [ '4.0.8' ],
+15 silly audit   minimist: [ '1.2.8' ],
+15 silly audit   minipass: [ '7.0.4' ],
+15 silly audit   ms: [ '2.1.2' ],
+15 silly audit   mz: [ '2.7.0' ],
+15 silly audit   nanoid: [ '3.3.7' ],
+15 silly audit   'natural-compare': [ '1.4.0' ],
+15 silly audit   next: [ '14.2.13' ],
+15 silly audit   postcss: [ '8.4.31', '8.4.35' ],
+15 silly audit   'node-releases': [ '2.0.14' ],
+15 silly audit   'normalize-path': [ '3.0.0' ],
+15 silly audit   'normalize-range': [ '0.1.2' ],
+15 silly audit   'object-assign': [ '4.1.1' ],
+15 silly audit   'object-hash': [ '3.0.0' ],
+15 silly audit   'object-inspect': [ '1.13.1' ],
+15 silly audit   'object-keys': [ '1.1.1' ],
+15 silly audit   'object.assign': [ '4.1.5' ],
+15 silly audit   'object.entries': [ '1.1.7' ],
+15 silly audit   'object.fromentries': [ '2.0.7' ],
+15 silly audit   'object.groupby': [ '1.0.2' ],
+15 silly audit   'object.hasown': [ '1.1.3' ],
+15 silly audit   'object.values': [ '1.1.7' ],
+15 silly audit   once: [ '1.4.0' ],
+15 silly audit   optionator: [ '0.9.3' ],
+15 silly audit   'p-limit': [ '3.1.0' ],
+15 silly audit   'p-locate': [ '5.0.0' ],
+15 silly audit   'parent-module': [ '1.0.1' ],
+15 silly audit   'path-exists': [ '4.0.0' ],
+15 silly audit   'path-is-absolute': [ '1.0.1' ],
+15 silly audit   'path-key': [ '3.1.1' ],
+15 silly audit   'path-parse': [ '1.0.7' ],
+15 silly audit   'path-scurry': [ '1.10.1' ],
+15 silly audit   'path-type': [ '4.0.0' ],
+15 silly audit   picocolors: [ '1.0.0' ],
+15 silly audit   picomatch: [ '2.3.1' ],
+15 silly audit   pify: [ '2.3.0' ],
+15 silly audit   pirates: [ '4.0.6' ],
+15 silly audit   'postcss-import': [ '15.1.0' ],
+15 silly audit   'postcss-js': [ '4.0.1' ],
+15 silly audit   'postcss-load-config': [ '4.0.2' ],
+15 silly audit   'postcss-nested': [ '6.0.1' ],
+15 silly audit   'postcss-selector-parser': [ '6.0.15' ],
+15 silly audit   'postcss-value-parser': [ '4.2.0' ],
+15 silly audit   'prelude-ls': [ '1.2.1' ],
+15 silly audit   'prop-types': [ '15.8.1' ],
+15 silly audit   punycode: [ '2.3.1' ],
+15 silly audit   'queue-microtask': [ '1.2.3' ],
+15 silly audit   react: [ '18.2.0' ],
+15 silly audit   'react-countup': [ '6.5.0' ],
+15 silly audit   'react-dom': [ '18.2.0' ],
+15 silly audit   'react-is': [ '16.13.1' ],
+15 silly audit   'react-type-animation': [ '3.2.0' ],
+15 silly audit   'read-cache': [ '1.0.0' ],
+15 silly audit   readdirp: [ '3.6.0' ],
+15 silly audit   'reflect.getprototypeof': [ '1.0.5' ],
+15 silly audit   'regenerator-runtime': [ '0.14.1' ],
+15 silly audit   'regexp.prototype.flags': [ '1.5.1' ],
+15 silly audit   'resolve-from': [ '4.0.0' ],
+15 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+15 silly audit   reusify: [ '1.0.4' ],
+15 silly audit   rimraf: [ '3.0.2' ],
+15 silly audit   'run-parallel': [ '1.2.0' ],
+15 silly audit   'safe-array-concat': [ '1.1.0' ],
+15 silly audit   'safe-regex-test': [ '1.0.3' ],
+15 silly audit   scheduler: [ '0.23.0' ],
+15 silly audit   'set-function-length': [ '1.2.1' ],
+15 silly audit   'set-function-name': [ '2.0.1' ],
+15 silly audit   'shebang-command': [ '2.0.0' ],
+15 silly audit   'shebang-regex': [ '3.0.0' ],
+15 silly audit   'side-channel': [ '1.0.5' ],
+15 silly audit   'signal-exit': [ '4.1.0' ],
+15 silly audit   slash: [ '3.0.0' ],
+15 silly audit   'source-map-js': [ '1.0.2' ],
+15 silly audit   streamsearch: [ '1.1.0' ],
+15 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+15 silly audit   'string.prototype.matchall': [ '4.0.10' ],
+15 silly audit   'string.prototype.trim': [ '1.2.8' ],
+15 silly audit   'string.prototype.trimend': [ '1.0.7' ],
+15 silly audit   'string.prototype.trimstart': [ '1.0.7' ],
+15 silly audit   'strip-bom': [ '3.0.0' ],
+15 silly audit   'strip-json-comments': [ '3.1.1' ],
+15 silly audit   'styled-jsx': [ '5.1.1' ],
+15 silly audit   sucrase: [ '3.35.0' ],
+15 silly audit   'supports-color': [ '7.2.0' ],
+15 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+15 silly audit   swiper: [ '11.0.6' ],
+15 silly audit   tailwindcss: [ '3.4.1' ],
+15 silly audit   tapable: [ '2.2.1' ],
+15 silly audit   'text-table': [ '0.2.0' ],
+15 silly audit   thenify: [ '3.3.1' ],
+15 silly audit   'thenify-all': [ '1.6.0' ],
+15 silly audit   'to-regex-range': [ '5.0.1' ],
+15 silly audit   'ts-api-utils': [ '1.2.1' ],
+15 silly audit   'ts-interface-checker': [ '0.1.13' ],
+15 silly audit   'tsconfig-paths': [ '3.15.0' ],
+15 silly audit   tslib: [ '2.6.2' ],
+15 silly audit   tsparticles: [ '3.2.1' ],
+15 silly audit   'type-check': [ '0.4.0' ],
+15 silly audit   'type-fest': [ '0.20.2' ],
+15 silly audit   'typed-array-buffer': [ '1.0.1' ],
+15 silly audit   'typed-array-byte-length': [ '1.0.0' ],
+15 silly audit   'typed-array-byte-offset': [ '1.0.0' ],
+15 silly audit   'typed-array-length': [ '1.0.4' ],
+15 silly audit   typescript: [ '5.3.3' ],
+15 silly audit   'unbox-primitive': [ '1.0.2' ],
+15 silly audit   'undici-types': [ '5.26.5' ],
+15 silly audit   'update-browserslist-db': [ '1.0.13' ],
+15 silly audit   'uri-js': [ '4.4.1' ],
+15 silly audit   'util-deprecate': [ '1.0.2' ],
+15 silly audit   which: [ '2.0.2' ],
+15 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+15 silly audit   'which-builtin-type': [ '1.1.3' ],
+15 silly audit   'which-collection': [ '1.0.1' ],
+15 silly audit   'which-typed-array': [ '1.1.14' ],
+15 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+15 silly audit   wrappy: [ '1.0.2' ],
+15 silly audit   yallist: [ '4.0.0' ],
+15 silly audit   yaml: [ '2.3.4' ],
+15 silly audit   'yocto-queue': [ '0.1.0' ]
+15 silly audit }
+16 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\fsevents
+17 silly reify mark deleted [
+17 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\fsevents'
+17 silly reify ]
+18 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-win32-ia32-msvc
+19 silly reify mark deleted [
+19 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-win32-ia32-msvc'
+19 silly reify ]
+20 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-win32-arm64-msvc
+21 silly reify mark deleted [
+21 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-win32-arm64-msvc'
+21 silly reify ]
+22 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-linux-x64-musl
+23 silly reify mark deleted [
+23 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-linux-x64-musl'
+23 silly reify ]
+24 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-linux-x64-gnu
+25 silly reify mark deleted [
+25 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-linux-x64-gnu'
+25 silly reify ]
+26 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-linux-arm64-musl
+27 silly reify mark deleted [
+27 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-linux-arm64-musl'
+27 silly reify ]
+28 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-linux-arm64-gnu
+29 silly reify mark deleted [
+29 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-linux-arm64-gnu'
+29 silly reify ]
+30 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-darwin-x64
+31 silly reify mark deleted [
+31 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-darwin-x64'
+31 silly reify ]
+32 verbose reify failed optional dependency C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main\node_modules\@next\swc-darwin-arm64
+33 silly reify mark deleted [
+33 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\landing-page-particles-main\\node_modules\\@next\\swc-darwin-arm64'
+33 silly reify ]
+34 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 5787ms
+35 silly audit report {}
+36 warn deprecated @tsparticles/plugin-easing-quad@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+37 warn deprecated @tsparticles/interaction-external-pause@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+38 warn deprecated @tsparticles/updater-size@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+39 warn deprecated @tsparticles/updater-color@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+40 warn deprecated @tsparticles/move-parallax@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+41 warn deprecated @tsparticles/updater-opacity@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+42 warn deprecated @tsparticles/plugin-emitters-shape-square@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+43 warn deprecated @tsparticles/updater-stroke-color@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+44 warn deprecated @tsparticles/plugin-emitters-shape-circle@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+45 warn deprecated @tsparticles/interaction-particles-attract@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+46 warn deprecated @tsparticles/shape-line@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+47 warn deprecated @tsparticles/shape-square@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+48 warn deprecated @tsparticles/shape-text@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+49 warn deprecated @tsparticles/shape-star@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+50 warn deprecated @tsparticles/shape-circle@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+51 warn deprecated @tsparticles/interaction-external-push@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+52 warn deprecated @tsparticles/interaction-external-remove@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+53 warn deprecated @tsparticles/shape-emoji@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+54 warn deprecated @tsparticles/move-base@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+55 warn deprecated @tsparticles/interaction-external-trail@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+56 warn deprecated @tsparticles/interaction-external-slow@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+57 warn deprecated @tsparticles/updater-rotate@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+58 warn deprecated @tsparticles/interaction-particles-collisions@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+59 warn deprecated @tsparticles/updater-twinkle@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+60 warn deprecated @tsparticles/shape-polygon@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+61 warn deprecated @tsparticles/updater-tilt@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+62 warn deprecated @tsparticles/interaction-external-bounce@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+63 warn deprecated @tsparticles/interaction-external-attract@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+64 warn deprecated @tsparticles/updater-wobble@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+65 warn deprecated @tsparticles/interaction-external-connect@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+66 warn deprecated @tsparticles/interaction-external-grab@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+67 warn deprecated @tsparticles/updater-roll@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+68 warn deprecated @tsparticles/interaction-external-repulse@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+69 warn deprecated @tsparticles/updater-life@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+70 warn deprecated @tsparticles/updater-out-modes@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+71 warn deprecated @tsparticles/interaction-external-bubble@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+72 warn deprecated @tsparticles/updater-destroy@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+73 warn deprecated @tsparticles/basic@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+74 warn deprecated @tsparticles/plugin-absorbers@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+75 warn deprecated @tsparticles/interaction-particles-links@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+76 warn deprecated @tsparticles/shape-image@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+77 warn deprecated @tsparticles/plugin-emitters@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+78 warn deprecated @tsparticles/slim@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+79 warn deprecated tsparticles@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+80 warn deprecated @tsparticles/engine@3.2.1: 3.2.0 and 3.2.1 have issues with some bundlers, deprecating those until solved with 3.2.2
+81 info run @tsparticles/engine@3.2.1 install node_modules/@tsparticles/engine node ./scripts/install.js
+82 info run @tsparticles/engine@3.2.1 install { code: 0, signal: null }
+83 silly ADD node_modules/yocto-queue
+84 silly ADD node_modules/yaml
+85 silly ADD node_modules/yallist
+86 silly ADD node_modules/wrappy
+87 silly ADD node_modules/wrap-ansi-cjs
+88 silly ADD node_modules/wrap-ansi-cjs/node_modules/string-width
+89 silly ADD node_modules/wrap-ansi-cjs/node_modules/emoji-regex
+90 silly ADD node_modules/wrap-ansi
+91 silly ADD node_modules/wrap-ansi/node_modules/strip-ansi
+92 silly ADD node_modules/wrap-ansi/node_modules/ansi-styles
+93 silly ADD node_modules/wrap-ansi/node_modules/ansi-regex
+94 silly ADD node_modules/which-typed-array
+95 silly ADD node_modules/which-collection
+96 silly ADD node_modules/which-builtin-type
+97 silly ADD node_modules/which-boxed-primitive
+98 silly ADD node_modules/which
+99 silly ADD node_modules/util-deprecate
+100 silly ADD node_modules/uri-js
+101 silly ADD node_modules/update-browserslist-db
+102 silly ADD node_modules/undici-types
+103 silly ADD node_modules/unbox-primitive
+104 silly ADD node_modules/typescript
+105 silly ADD node_modules/typed-array-length
+106 silly ADD node_modules/typed-array-byte-offset
+107 silly ADD node_modules/typed-array-byte-length
+108 silly ADD node_modules/typed-array-buffer
+109 silly ADD node_modules/type-fest
+110 silly ADD node_modules/type-check
+111 silly ADD node_modules/tsparticles
+112 silly ADD node_modules/tslib
+113 silly ADD node_modules/tsconfig-paths
+114 silly ADD node_modules/ts-interface-checker
+115 silly ADD node_modules/ts-api-utils
+116 silly ADD node_modules/to-regex-range
+117 silly ADD node_modules/thenify-all
+118 silly ADD node_modules/thenify
+119 silly ADD node_modules/text-table
+120 silly ADD node_modules/tapable
+121 silly ADD node_modules/tailwindcss
+122 silly ADD node_modules/swiper
+123 silly ADD node_modules/supports-preserve-symlinks-flag
+124 silly ADD node_modules/supports-color
+125 silly ADD node_modules/sucrase
+126 silly ADD node_modules/styled-jsx
+127 silly ADD node_modules/strip-json-comments
+128 silly ADD node_modules/strip-bom
+129 silly ADD node_modules/strip-ansi-cjs
+130 silly ADD node_modules/strip-ansi
+131 silly ADD node_modules/string.prototype.trimstart
+132 silly ADD node_modules/string.prototype.trimend
+133 silly ADD node_modules/string.prototype.trim
+134 silly ADD node_modules/string.prototype.matchall
+135 silly ADD node_modules/string-width-cjs
+136 silly ADD node_modules/string-width-cjs/node_modules/emoji-regex
+137 silly ADD node_modules/string-width
+138 silly ADD node_modules/string-width/node_modules/strip-ansi
+139 silly ADD node_modules/string-width/node_modules/ansi-regex
+140 silly ADD node_modules/streamsearch
+141 silly ADD node_modules/source-map-js
+142 silly ADD node_modules/slash
+143 silly ADD node_modules/signal-exit
+144 silly ADD node_modules/side-channel
+145 silly ADD node_modules/shebang-regex
+146 silly ADD node_modules/shebang-command
+147 silly ADD node_modules/set-function-name
+148 silly ADD node_modules/set-function-length
+149 silly ADD node_modules/semver
+150 silly ADD node_modules/semver/node_modules/lru-cache
+151 silly ADD node_modules/scheduler
+152 silly ADD node_modules/safe-regex-test
+153 silly ADD node_modules/safe-array-concat
+154 silly ADD node_modules/run-parallel
+155 silly ADD node_modules/rimraf
+156 silly ADD node_modules/rimraf/node_modules/glob
+157 silly ADD node_modules/reusify
+158 silly ADD node_modules/resolve-pkg-maps
+159 silly ADD node_modules/resolve-from
+160 silly ADD node_modules/resolve
+161 silly ADD node_modules/regexp.prototype.flags
+162 silly ADD node_modules/regenerator-runtime
+163 silly ADD node_modules/reflect.getprototypeof
+164 silly ADD node_modules/readdirp
+165 silly ADD node_modules/read-cache
+166 silly ADD node_modules/react-type-animation
+167 silly ADD node_modules/react-is
+168 silly ADD node_modules/react-dom
+169 silly ADD node_modules/react-countup
+170 silly ADD node_modules/react
+171 silly ADD node_modules/queue-microtask
+172 silly ADD node_modules/punycode
+173 silly ADD node_modules/prop-types
+174 silly ADD node_modules/prelude-ls
+175 silly ADD node_modules/postcss-value-parser
+176 silly ADD node_modules/postcss-selector-parser
+177 silly ADD node_modules/postcss-nested
+178 silly ADD node_modules/postcss-load-config
+179 silly ADD node_modules/postcss-load-config/node_modules/lilconfig
+180 silly ADD node_modules/postcss-js
+181 silly ADD node_modules/postcss-import
+182 silly ADD node_modules/postcss
+183 silly ADD node_modules/pirates
+184 silly ADD node_modules/pify
+185 silly ADD node_modules/picomatch
+186 silly ADD node_modules/picocolors
+187 silly ADD node_modules/path-type
+188 silly ADD node_modules/path-scurry
+189 silly ADD node_modules/path-parse
+190 silly ADD node_modules/path-key
+191 silly ADD node_modules/path-is-absolute
+192 silly ADD node_modules/path-exists
+193 silly ADD node_modules/parent-module
+194 silly ADD node_modules/p-locate
+195 silly ADD node_modules/p-limit
+196 silly ADD node_modules/optionator
+197 silly ADD node_modules/once
+198 silly ADD node_modules/object.values
+199 silly ADD node_modules/object.hasown
+200 silly ADD node_modules/object.groupby
+201 silly ADD node_modules/object.fromentries
+202 silly ADD node_modules/object.entries
+203 silly ADD node_modules/object.assign
+204 silly ADD node_modules/object-keys
+205 silly ADD node_modules/object-inspect
+206 silly ADD node_modules/object-hash
+207 silly ADD node_modules/object-assign
+208 silly ADD node_modules/normalize-range
+209 silly ADD node_modules/normalize-path
+210 silly ADD node_modules/node-releases
+211 silly ADD node_modules/next
+212 silly ADD node_modules/next/node_modules/postcss
+213 silly ADD node_modules/natural-compare
+214 silly ADD node_modules/nanoid
+215 silly ADD node_modules/mz
+216 silly ADD node_modules/ms
+217 silly ADD node_modules/minipass
+218 silly ADD node_modules/minimist
+219 silly ADD node_modules/minimatch
+220 silly ADD node_modules/micromatch
+221 silly ADD node_modules/merge2
+222 silly ADD node_modules/lucide-react
+223 silly ADD node_modules/lru-cache
+224 silly ADD node_modules/loose-envify
+225 silly ADD node_modules/lodash.merge
+226 silly ADD node_modules/locate-path
+227 silly ADD node_modules/lines-and-columns
+228 silly ADD node_modules/lilconfig
+229 silly ADD node_modules/levn
+230 silly ADD node_modules/language-tags
+231 silly ADD node_modules/language-subtag-registry
+232 silly ADD node_modules/keyv
+233 silly ADD node_modules/jsx-ast-utils
+234 silly ADD node_modules/json5
+235 silly ADD node_modules/json-stable-stringify-without-jsonify
+236 silly ADD node_modules/json-schema-traverse
+237 silly ADD node_modules/json-buffer
+238 silly ADD node_modules/js-yaml
+239 silly ADD node_modules/js-tokens
+240 silly ADD node_modules/jiti
+241 silly ADD node_modules/jackspeak
+242 silly ADD node_modules/iterator.prototype
+243 silly ADD node_modules/isexe
+244 silly ADD node_modules/isarray
+245 silly ADD node_modules/is-weakset
+246 silly ADD node_modules/is-weakref
+247 silly ADD node_modules/is-weakmap
+248 silly ADD node_modules/is-typed-array
+249 silly ADD node_modules/is-symbol
+250 silly ADD node_modules/is-string
+251 silly ADD node_modules/is-shared-array-buffer
+252 silly ADD node_modules/is-set
+253 silly ADD node_modules/is-regex
+254 silly ADD node_modules/is-path-inside
+255 silly ADD node_modules/is-number-object
+256 silly ADD node_modules/is-number
+257 silly ADD node_modules/is-negative-zero
+258 silly ADD node_modules/is-map
+259 silly ADD node_modules/is-glob
+260 silly ADD node_modules/is-generator-function
+261 silly ADD node_modules/is-fullwidth-code-point
+262 silly ADD node_modules/is-finalizationregistry
+263 silly ADD node_modules/is-extglob
+264 silly ADD node_modules/is-date-object
+265 silly ADD node_modules/is-core-module
+266 silly ADD node_modules/is-callable
+267 silly ADD node_modules/is-boolean-object
+268 silly ADD node_modules/is-binary-path
+269 silly ADD node_modules/is-bigint
+270 silly ADD node_modules/is-async-function
+271 silly ADD node_modules/is-array-buffer
+272 silly ADD node_modules/internal-slot
+273 silly ADD node_modules/inherits
+274 silly ADD node_modules/inflight
+275 silly ADD node_modules/imurmurhash
+276 silly ADD node_modules/import-fresh
+277 silly ADD node_modules/ignore
+278 silly ADD node_modules/hasown
+279 silly ADD node_modules/has-tostringtag
+280 silly ADD node_modules/has-symbols
+281 silly ADD node_modules/has-proto
+282 silly ADD node_modules/has-property-descriptors
+283 silly ADD node_modules/has-flag
+284 silly ADD node_modules/has-bigints
+285 silly ADD node_modules/graphemer
+286 silly ADD node_modules/graceful-fs
+287 silly ADD node_modules/gopd
+288 silly ADD node_modules/globby
+289 silly ADD node_modules/globalthis
+290 silly ADD node_modules/globals
+291 silly ADD node_modules/glob-parent
+292 silly ADD node_modules/glob
+293 silly ADD node_modules/glob/node_modules/minimatch
+294 silly ADD node_modules/glob/node_modules/brace-expansion
+295 silly ADD node_modules/get-tsconfig
+296 silly ADD node_modules/get-symbol-description
+297 silly ADD node_modules/get-intrinsic
+298 silly ADD node_modules/functions-have-names
+299 silly ADD node_modules/function.prototype.name
+300 silly ADD node_modules/function-bind
+301 silly ADD
+302 silly ADD node_modules/fs.realpath
+303 silly ADD node_modules/framer-motion
+304 silly ADD node_modules/fraction.js
+305 silly ADD node_modules/foreground-child
+306 silly ADD node_modules/for-each
+307 silly ADD node_modules/flatted
+308 silly ADD node_modules/flat-cache
+309 silly ADD node_modules/find-up
+310 silly ADD node_modules/fill-range
+311 silly ADD node_modules/file-entry-cache
+312 silly ADD node_modules/fastq
+313 silly ADD node_modules/fast-levenshtein
+314 silly ADD node_modules/fast-json-stable-stringify
+315 silly ADD node_modules/fast-glob
+316 silly ADD node_modules/fast-glob/node_modules/glob-parent
+317 silly ADD node_modules/fast-deep-equal
+318 silly ADD node_modules/esutils
+319 silly ADD node_modules/estraverse
+320 silly ADD node_modules/esrecurse
+321 silly ADD node_modules/esquery
+322 silly ADD node_modules/espree
+323 silly ADD node_modules/eslint-visitor-keys
+324 silly ADD node_modules/eslint-scope
+325 silly ADD node_modules/eslint-plugin-react-hooks
+326 silly ADD node_modules/eslint-plugin-react
+327 silly ADD node_modules/eslint-plugin-react/node_modules/semver
+328 silly ADD node_modules/eslint-plugin-react/node_modules/resolve
+329 silly ADD node_modules/eslint-plugin-react/node_modules/doctrine
+330 silly ADD node_modules/eslint-plugin-jsx-a11y
+331 silly ADD node_modules/eslint-plugin-import
+332 silly ADD node_modules/eslint-plugin-import/node_modules/semver
+333 silly ADD node_modules/eslint-plugin-import/node_modules/doctrine
+334 silly ADD node_modules/eslint-plugin-import/node_modules/debug
+335 silly ADD node_modules/eslint-module-utils
+336 silly ADD node_modules/eslint-module-utils/node_modules/debug
+337 silly ADD node_modules/eslint-import-resolver-typescript
+338 silly ADD node_modules/eslint-import-resolver-node
+339 silly ADD node_modules/eslint-import-resolver-node/node_modules/debug
+340 silly ADD node_modules/eslint-config-next
+341 silly ADD node_modules/eslint
+342 silly ADD node_modules/escape-string-regexp
+343 silly ADD node_modules/escalade
+344 silly ADD node_modules/es-to-primitive
+345 silly ADD node_modules/es-shim-unscopables
+346 silly ADD node_modules/es-set-tostringtag
+347 silly ADD node_modules/es-iterator-helpers
+348 silly ADD node_modules/es-errors
+349 silly ADD node_modules/es-array-method-boxes-properly
+350 silly ADD node_modules/es-abstract
+351 silly ADD node_modules/enhanced-resolve
+352 silly ADD node_modules/emoji-regex
+353 silly ADD node_modules/electron-to-chromium
+354 silly ADD node_modules/eastasianwidth
+355 silly ADD node_modules/doctrine
+356 silly ADD node_modules/dlv
+357 silly ADD node_modules/dir-glob
+358 silly ADD node_modules/didyoumean
+359 silly ADD node_modules/dequal
+360 silly ADD node_modules/define-properties
+361 silly ADD node_modules/define-data-property
+362 silly ADD node_modules/deep-is
+363 silly ADD node_modules/debug
+364 silly ADD node_modules/damerau-levenshtein
+365 silly ADD node_modules/csstype
+366 silly ADD node_modules/cssesc
+367 silly ADD node_modules/cross-spawn
+368 silly ADD node_modules/countup.js
+369 silly ADD node_modules/concat-map
+370 silly ADD node_modules/commander
+371 silly ADD node_modules/color-name
+372 silly ADD node_modules/color-convert
+373 silly ADD node_modules/client-only
+374 silly ADD node_modules/chokidar
+375 silly ADD node_modules/chokidar/node_modules/glob-parent
+376 silly ADD node_modules/chalk
+377 silly ADD node_modules/caniuse-lite
+378 silly ADD node_modules/camelcase-css
+379 silly ADD node_modules/callsites
+380 silly ADD node_modules/call-bind
+381 silly ADD node_modules/busboy
+382 silly ADD node_modules/browserslist
+383 silly ADD node_modules/braces
+384 silly ADD node_modules/brace-expansion
+385 silly ADD node_modules/binary-extensions
+386 silly ADD node_modules/balanced-match
+387 silly ADD node_modules/axobject-query
+388 silly ADD node_modules/axe-core
+389 silly ADD node_modules/available-typed-arrays
+390 silly ADD node_modules/autoprefixer
+391 silly ADD node_modules/asynciterator.prototype
+392 silly ADD node_modules/ast-types-flow
+393 silly ADD node_modules/arraybuffer.prototype.slice
+394 silly ADD node_modules/array.prototype.tosorted
+395 silly ADD node_modules/array.prototype.flatmap
+396 silly ADD node_modules/array.prototype.flat
+397 silly ADD node_modules/array.prototype.findlastindex
+398 silly ADD node_modules/array.prototype.filter
+399 silly ADD node_modules/array-union
+400 silly ADD node_modules/array-includes
+401 silly ADD node_modules/array-buffer-byte-length
+402 silly ADD node_modules/aria-query
+403 silly ADD node_modules/argparse
+404 silly ADD node_modules/arg
+405 silly ADD node_modules/anymatch
+406 silly ADD node_modules/any-promise
+407 silly ADD node_modules/ansi-styles
+408 silly ADD node_modules/ansi-regex
+409 silly ADD node_modules/ajv
+410 silly ADD node_modules/acorn-jsx
+411 silly ADD node_modules/acorn
+412 silly ADD node_modules/@ungap/structured-clone
+413 silly ADD node_modules/@typescript-eslint/visitor-keys
+414 silly ADD node_modules/@typescript-eslint/typescript-estree
+415 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch
+416 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion
+417 silly ADD node_modules/@typescript-eslint/types
+418 silly ADD node_modules/@typescript-eslint/scope-manager
+419 silly ADD node_modules/@typescript-eslint/parser
+420 silly ADD node_modules/@types/scheduler
+421 silly ADD node_modules/@types/react-vertical-timeline-component
+422 silly ADD node_modules/@types/react-dom
+423 silly ADD node_modules/@types/react
+424 silly ADD node_modules/@types/prop-types
+425 silly ADD node_modules/@types/node
+426 silly ADD node_modules/@types/json5
+427 silly ADD node_modules/@tsparticles/updater-wobble
+428 silly ADD node_modules/@tsparticles/updater-twinkle
+429 silly ADD node_modules/@tsparticles/updater-tilt
+430 silly ADD node_modules/@tsparticles/updater-stroke-color
+431 silly ADD node_modules/@tsparticles/updater-size
+432 silly ADD node_modules/@tsparticles/updater-rotate
+433 silly ADD node_modules/@tsparticles/updater-roll
+434 silly ADD node_modules/@tsparticles/updater-out-modes
+435 silly ADD node_modules/@tsparticles/updater-opacity
+436 silly ADD node_modules/@tsparticles/updater-life
+437 silly ADD node_modules/@tsparticles/updater-destroy
+438 silly ADD node_modules/@tsparticles/updater-color
+439 silly ADD node_modules/@tsparticles/slim
+440 silly ADD node_modules/@tsparticles/shape-text
+441 silly ADD node_modules/@tsparticles/shape-star
+442 silly ADD node_modules/@tsparticles/shape-square
+443 silly ADD node_modules/@tsparticles/shape-polygon
+444 silly ADD node_modules/@tsparticles/shape-line
+445 silly ADD node_modules/@tsparticles/shape-image
+446 silly ADD node_modules/@tsparticles/shape-emoji
+447 silly ADD node_modules/@tsparticles/shape-circle
+448 silly ADD node_modules/@tsparticles/react
+449 silly ADD node_modules/@tsparticles/plugin-emitters-shape-square
+450 silly ADD node_modules/@tsparticles/plugin-emitters-shape-circle
+451 silly ADD node_modules/@tsparticles/plugin-emitters
+452 silly ADD node_modules/@tsparticles/plugin-easing-quad
+453 silly ADD node_modules/@tsparticles/plugin-absorbers
+454 silly ADD node_modules/@tsparticles/move-parallax
+455 silly ADD node_modules/@tsparticles/move-base
+456 silly ADD node_modules/@tsparticles/interaction-particles-links
+457 silly ADD node_modules/@tsparticles/interaction-particles-collisions
+458 silly ADD node_modules/@tsparticles/interaction-particles-attract
+459 silly ADD node_modules/@tsparticles/interaction-external-trail
+460 silly ADD node_modules/@tsparticles/interaction-external-slow
+461 silly ADD node_modules/@tsparticles/interaction-external-repulse
+462 silly ADD node_modules/@tsparticles/interaction-external-remove
+463 silly ADD node_modules/@tsparticles/interaction-external-push
+464 silly ADD node_modules/@tsparticles/interaction-external-pause
+465 silly ADD node_modules/@tsparticles/interaction-external-grab
+466 silly ADD node_modules/@tsparticles/interaction-external-connect
+467 silly ADD node_modules/@tsparticles/interaction-external-bubble
+468 silly ADD node_modules/@tsparticles/interaction-external-bounce
+469 silly ADD node_modules/@tsparticles/interaction-external-attract
+470 silly ADD node_modules/@tsparticles/engine
+471 silly ADD node_modules/@tsparticles/basic
+472 silly ADD node_modules/@swc/helpers
+473 silly ADD node_modules/@swc/counter
+474 silly ADD node_modules/@rushstack/eslint-patch
+475 silly ADD node_modules/@pkgjs/parseargs
+476 silly ADD node_modules/@nodelib/fs.walk
+477 silly ADD node_modules/@nodelib/fs.stat
+478 silly ADD node_modules/@nodelib/fs.scandir
+479 silly ADD node_modules/@next/swc-win32-x64-msvc
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD node_modules/@next/eslint-plugin-next
+489 silly ADD node_modules/@next/env
+490 silly ADD node_modules/@jridgewell/trace-mapping
+491 silly ADD node_modules/@jridgewell/sourcemap-codec
+492 silly ADD node_modules/@jridgewell/set-array
+493 silly ADD node_modules/@jridgewell/resolve-uri
+494 silly ADD node_modules/@jridgewell/gen-mapping
+495 silly ADD node_modules/@isaacs/cliui
+496 silly ADD node_modules/@isaacs/cliui/node_modules/strip-ansi
+497 silly ADD node_modules/@isaacs/cliui/node_modules/ansi-regex
+498 silly ADD node_modules/@humanwhocodes/object-schema
+499 silly ADD node_modules/@humanwhocodes/module-importer
+500 silly ADD node_modules/@humanwhocodes/config-array
+501 silly ADD node_modules/@eslint/js
+502 silly ADD node_modules/@eslint/eslintrc
+503 silly ADD node_modules/@eslint-community/regexpp
+504 silly ADD node_modules/@eslint-community/eslint-utils
+505 silly ADD node_modules/@emotion/memoize
+506 silly ADD node_modules/@emotion/is-prop-valid
+507 silly ADD node_modules/@babel/runtime
+508 silly ADD node_modules/@alloc/quick-lru
+509 silly ADD node_modules/@aashutoshrathi/word-wrap
+510 verbose cwd C:\Users\Janeth\Desktop\SOFTWARE DEV\landing-page-particles-main
+511 verbose os Windows_NT 10.0.19045
+512 verbose node v20.17.0
+513 verbose npm  v10.8.3
+514 verbose exit 0
+515 info ok

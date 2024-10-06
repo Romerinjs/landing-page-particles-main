@@ -35,6 +35,11 @@ const Introduction = () => {
     return (
         <div className="z-20 w-full bg-darkBg/60 relative">
             <div className="absolute top-4 right-4 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                <Link href="/buy-account">
+                    <button className="px-4 py-2 border bg-transparent hover:bg-[#004aad] transition-colors duration-200 rounded-md">
+                        Compra una cuenta
+                    </button>
+                </Link>
             </div>
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
                 <Image src="/home-4.png" priority width={800} height={800} alt="Avatar" />
@@ -58,7 +63,7 @@ const Introduction = () => {
                             className="font-bold text-secondary"
                         />
                     </h1>
-                    <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
+                    <p className="mx-auto mb-1 text-xl md:text-xl md:mx-0 md:mb-8">
                         Accede a tu perfil de negocios. Con un solo inicio de sesión, podrás gestionar tus procesos de forma eficiente, ahorrando tiempo y recursos.
                     </p>
 

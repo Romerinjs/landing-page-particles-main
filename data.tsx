@@ -1,4 +1,4 @@
-import { HomeIcon, Crop, Pencil, Computer, Book, Rocket, Users } from "lucide-react";
+import { HomeIcon, Crop, Pencil, Computer, Book, Rocket, Users, Bot } from "lucide-react";
 
 export const itemsNavbar = [
     {
@@ -12,7 +12,13 @@ export const itemsNavbar = [
         title: "User",
         icon: <Users size={25} color="#fff" strokeWidth={1} />,
         link: "/about-me",
-    }
+    },
+    {
+        id: 3,
+        title: "info",
+        icon: <Bot size={25} color="#fff" strokeWidth={1} />,
+        link: "/info",
+    },
 ];
 
 // Data about the "About Me" page

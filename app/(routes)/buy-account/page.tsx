@@ -157,9 +157,6 @@ export default function BuyAccount() {
                 <Button type="submit" className="w-full">Process Payment</Button>
               </form>
             </CardContent>
-            <CardFooter children={undefined}>
-              {/* The submit button is now inside the form */}
-            </CardFooter>
           </Card>
         </div>
       </div>

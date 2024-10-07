@@ -1,4 +1,4 @@
-"use client"; // Asegúrate de que este componente se comporte como un Client Component
+"use client"; // Ensure this component behaves as a Client Component
 import { CoverParticles } from "@/components/cover-particles";
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -6,22 +6,20 @@ import { auth } from '../../lib/firebaseConfig';
 import { User } from 'firebase/auth';
 import { signOut } from 'firebase/auth';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css'; // Asegúrate de importar los estilos de Swiper
+import 'swiper/swiper-bundle.css'; // Ensure to import Swiper styles
 import SwiperCore from 'swiper';
 import { Autoplay } from 'swiper/modules';
-import TransitionPage from "@/components/transition-page"; // Importar el componente TransitionPage
+import TransitionPage from "@/components/transition-page"; // Import TransitionPage component
 
-// Instalar el módulo de Autoplay
+// Install the Autoplay module
 SwiperCore.use([Autoplay]);
 
-
-const flashCardsData =
-  [
-    { id: 1, text: 'Consejo rápido:\nNo olvides respirar antes de hacer cualquier fuerza fisica' },
-    { id: 2, text: 'Consejo rápido:\nSé consciente de los límites: Recuerda que los bots tienen limitaciones y pueden no entender todas las solicitudes, especialmente si son muy abstractas o emocionales. Ajusta tus expectativas en función de esto.' },
-    { id: 3, text: 'Consejo rápido:\nTen paciencia: Si el bot no responde de inmediato o no entiende la solicitud, intenta reformularla o dar más contexto.' },
-    { id: 4, text: 'Consejo rápido:\nUsa palabras clave: Si buscas información específica, incluye las palabras clave más relevantes. Los bots suelen estar diseñados para reconocer términos importantes.' },
-  ];
+const flashCardsData = [
+    { id: 1, text: 'Quick Tip:\nDon’t forget to breathe before exerting yourself.' },
+    { id: 2, text: 'Quick Tip:\nBe aware of the limits: Remember that bots have limitations and may not understand all requests, especially if they are very abstract or emotional. Adjust your expectations accordingly.' },
+    { id: 3, text: 'Quick Tip:\nBe patient: If the bot doesn’t respond immediately or doesn’t understand the request, try rephrasing it or providing more context.' },
+    { id: 4, text: 'Quick Tip:\nUse keywords: If you are looking for specific information, include the most relevant keywords. Bots are often designed to recognize important terms.' },
+];
 
 const CartProfile = () => {
     const [user, setUser] = useState<User | null>(null);
@@ -32,24 +30,24 @@ const CartProfile = () => {
             if (user) {
                 setUser(user);
             } else {
-                router.push('/'); // Redirigir a la página de inicio si no hay usuario
+                router.push('/'); // Redirect to the home page if no user is logged in
             }
         });
 
-        return () => unsubscribe(); // Limpieza del suscriptor
+        return () => unsubscribe(); // Cleanup subscriber
     }, [router]);
 
     const handleLogout = async () => {
         try {
             await signOut(auth);
-            router.push('/'); // Asegúrate de que redirige a la ruta correcta
+            router.push('/'); // Ensure it redirects to the correct route
         } catch (error) {
-            console.error("Error al cerrar sesión:", error); // Imprimir cualquier error
+            console.error("Error logging out:", error); // Print any error
         }
     };
 
     if (!user) {
-        return null; // Muestra nada mientras se determina el estado de autenticación
+        return null; // Show nothing while determining authentication status
     }
 
     return (
@@ -65,27 +63,27 @@ const CartProfile = () => {
                 </button>
             </div>
             
-            <h1 className="text-3xl font-bold mb-8">Bienvenido, {user.email}!</h1>
-            <p className="mb-4">Haz click aquí para descargar el archivo:</p>
-            <a href="/ruta/al/archivo" className="px-4 py-2 mt-4 bg-blue-600 hover:bg-blue-500 transition-colors duration-300 rounded-md">
-                Descargar archivo
+            <h1 className="text-3xl font-bold mb-8">Welcome, {user.email}!</h1>
+            <p className="mb-4">Click here to download the file:</p>
+            <a href="/path/to/file" className="px-4 py-2 mt-4 bg-blue-600 hover:bg-blue-500 transition-colors duration-300 rounded-md">
+                Download File
             </a>
 
-            {/* Flash Cards usando Swiper */}
+            {/* Flash Cards using Swiper */}
             <Swiper
-                spaceBetween={50} // Espacio entre las tarjetas
-                slidesPerView={1} // Número de tarjetas visibles
-                loop={true} // Repite las tarjetas
+                spaceBetween={50} // Space between cards
+                slidesPerView={1} // Number of visible cards
+                loop={true} // Repeat cards
                 autoplay={{
-                    delay: 3000, // Cambia cada 5 segundos
-                    disableOnInteraction: false, // Mantiene autoplay incluso después de la interacción del usuario
+                    delay: 3000, // Change every 3 seconds
+                    disableOnInteraction: false, // Keep autoplay even after user interaction
                 }}
                 className="mt-8 w-full max-w-lg"
             >
                 {flashCardsData.map((card) => (
                     <SwiperSlide key={card.id} className="flex items-center justify-center">
                         <div className="flex align-center items-center bg-black bg-opacity-40 p-4 rounded-lg shadow-md mx-2">
-                            {/* Dividimos el texto por salto de línea y usamos <br> para renderizar */}
+                            {/* Split the text by line break and use <br> to render */}
                             <p className="text-white">
                                 {card.text.split('\n').map((line, index) => (
                                     <span key={index}>

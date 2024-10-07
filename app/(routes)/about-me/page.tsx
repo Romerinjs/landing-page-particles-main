@@ -11,7 +11,7 @@ const AboutMePage = () => {
     const router = useRouter();
 
     const handleLogin = () => {
-        router.push('/login'); // Cambia '/login' por la ruta de tu página de inicio de sesión
+        router.push('/login'); // Change '/login' to the path of your login page
     };
 
     return (
@@ -23,17 +23,17 @@ const AboutMePage = () => {
             <ContainerPage>
                 <Avatar />
                 <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
-                    Optimiza tu{' '}
+                    Optimize your{' '}
                     <span className="font-bold text-secondary">
-                        NEGOCIO
+                        BUSINESS
                     </span>
                 </h1>
 
                 <p className="mt-4 text-center md:text-left">
-                    Nuestro bot de <span className="font-bold text-secondary">Boost Your Business</span> está diseñado para
-                    automatizar tareas y optimizar procesos, facilitando así la gestión de tu negocio. Con funciones avanzadas
-                    de atención al cliente y análisis de datos, nuestro bot te ayudará a mejorar la eficiencia y a ofrecer
-                    un servicio excepcional.
+                    Our <span className="font-bold text-secondary">Boost Your Business</span> bot is designed to
+                    automate tasks and optimize processes, thereby facilitating the management of your business. With advanced
+                    customer service features and data analysis, our bot will help you improve efficiency and provide
+                    exceptional service.
                 </p>
 
                 <CounterServices />

@@ -22,7 +22,7 @@ export default function BuyAccount() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Procesando pago...');
+    console.log('Processing payment...');
     
     try {
       const response = await fetch('/api/checkout', {
@@ -41,30 +41,29 @@ export default function BuyAccount() {
       const data = await response.json();
     
       if (response.ok) {
-        // Redirige al cliente a la URL del checkout
+        // Redirect the client to the checkout URL
         window.location.href = data.url;
-  
-        // Agrega el setTimeout para redirigir a la página de inicio después de 5 segundos
+
+        // Add the setTimeout to redirect to the homepage after 5 seconds
         setTimeout(() => {
-          router.push('/'); // Cambia '/' por la ruta que quieras
+          router.push('/'); // Change '/' to the desired route
         }, 5000);
       } else {
-        console.error('Error en el procesamiento del pago:', data.error);
-        alert('Error al procesar el pago. Por favor, intenta de nuevo.');
+        console.error('Error processing payment:', data.error);
+        alert('Error processing payment. Please try again.');
       }
     } catch (error) {
-      console.error('Error de red:', error);
-      alert('Ocurrió un error al procesar el pago. Por favor, intenta de nuevo.');
+      console.error('Network error:', error);
+      alert('An error occurred while processing the payment. Please try again.');
     }
   };
-  
   
   return (
     <div className="relative w-full min-h-screen bg-darkBg/60">
       <TransitionPage />
       <div className="absolute top-4 right-4">
         <Link href="/">
-          <Button variant="outline">Volver al inicio</Button>
+          <Button variant="outline">Back to Home</Button>
         </Link>
       </div>
       <div className="grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
@@ -72,16 +71,16 @@ export default function BuyAccount() {
 
         <div className="flex flex-col justify-center max-w-md mx-auto md:col-start-2">
           <h1 className="mb-10 text-2xl leading-tight md:py-5 text-center md:text-left md:text-4xl">
-            Compra tu cuenta y <br />
+            Buy your account and <br />
             <TypeAnimation
               sequence={[
-                'potencia tu negocio',
+                'boost your business',
                 600,
-                'aumenta tus ventas',
+                'increase your sales',
                 600,
-                'mejora tu productividad',
+                'improve your productivity',
                 600,
-                'simplifica tus procesos',
+                'simplify your processes',
                 600,
               ]}
               wrapper="span"
@@ -92,13 +91,13 @@ export default function BuyAccount() {
           </h1>
           <Card>
             <CardHeader>
-              <CardTitle>Comprar cuenta</CardTitle>
-              <CardDescription>Ingresa tus datos para procesar el pago</CardDescription>
+              <CardTitle>Buy Account</CardTitle>
+              <CardDescription>Enter your details to process the payment</CardDescription>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Nombre completo</Label>
+                  <Label htmlFor="name">Full Name</Label>
                   <Input
                     id="name"
                     type="text"
@@ -109,7 +108,7 @@ export default function BuyAccount() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="email">Correo electrónico</Label>
+                  <Label htmlFor="email">Email Address</Label>
                   <Input
                     id="email"
                     type="email"
@@ -120,7 +119,7 @@ export default function BuyAccount() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="cardNumber">Número de tarjeta</Label>
+                  <Label htmlFor="cardNumber">Card Number</Label>
                   <Input
                     id="cardNumber"
                     type="text"
@@ -132,13 +131,13 @@ export default function BuyAccount() {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="expiryDate">Fecha de expiración</Label>
+                    <Label htmlFor="expiryDate">Expiry Date</Label>
                     <Input
                       id="expiryDate"
                       type="text"
                       value={expiryDate}
                       onChange={(e) => setExpiryDate(e.target.value)}
-                      placeholder="MM/AA"
+                      placeholder="MM/YY"
                       required
                       label={''}
                     />
@@ -155,11 +154,11 @@ export default function BuyAccount() {
                     />
                   </div>
                 </div>
-                <Button type="submit" className="w-full">Procesar pago</Button>
+                <Button type="submit" className="w-full">Process Payment</Button>
               </form>
             </CardContent>
             <CardFooter children={undefined}>
-              {/* El botón de envío ahora está dentro del formulario */}
+              {/* The submit button is now inside the form */}
             </CardFooter>
           </Card>
         </div>

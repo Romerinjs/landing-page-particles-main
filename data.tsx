@@ -1,4 +1,4 @@
-import { HomeIcon, Crop, Pencil, Computer, Book, Rocket, Users} from "lucide-react";
+import { HomeIcon, Crop, Pencil, Computer, Book, Rocket, Users } from "lucide-react";
 
 export const itemsNavbar = [
     {
@@ -12,198 +12,94 @@ export const itemsNavbar = [
         title: "User",
         icon: <Users size={25} color="#fff" strokeWidth={1} />,
         link: "/about-me",
-    }]
+    }
+];
 
-// Datos sobre la página "About Me"
+// Data about the "About Me" page
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Asistente Virtual de Ventas",
+        title: "Sales Virtual Assistant",
         subtitle: "Boost Your Business",
-        description: "Nuestro bot está diseñado para optimizar tus procesos de ventas, ofreciendo asistencia en tiempo real y mejorando la experiencia del cliente.",
+        description: "Our bot is designed to optimize your sales processes, providing real-time assistance and enhancing customer experience.",
     },
     {
         id: 2,
-        title: "Automatización de Tareas",
-        subtitle: "Eficiencia en Cada Interacción",
-        description: "El bot se encarga de tareas repetitivas, liberando tiempo para que tu equipo se enfoque en lo que realmente importa: construir relaciones con los clientes.",
+        title: "Task Automation",
+        subtitle: "Efficiency in Every Interaction",
+        description: "The bot takes care of repetitive tasks, freeing up time for your team to focus on what really matters: building customer relationships.",
     },
     {
         id: 3,
-        title: "Interacción 24/7",
-        subtitle: "Siempre Disponible",
-        description: "Con nuestro bot, tus clientes obtienen respuestas instantáneas a cualquier hora del día, mejorando la satisfacción y la retención.",
+        title: "24/7 Interaction",
+        subtitle: "Always Available",
+        description: "With our bot, your customers get instant responses at any time of day, improving satisfaction and retention.",
     },
     {
         id: 4,
-        title: "Análisis y Reportes",
-        subtitle: "Datos en Tiempo Real",
-        description: "El bot proporciona informes detallados sobre el comportamiento de los usuarios y las tendencias del mercado, ayudando a tomar decisiones informadas.",
+        title: "Analysis and Reports",
+        subtitle: "Real-Time Data",
+        description: "The bot provides detailed reports on user behavior and market trends, helping you make informed decisions.",
     },
 ];
 
-// Datos para el contador
+// Data for the counter
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 5, // Puedes ajustar este número
-        text: "Años de experiencia en automatización",
+        endCounter: 5, // You can adjust this number
+        text: "Years of experience in automation",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 200, // Ajusta este número según tus estadísticas
-        text: "Clientes satisfechos con el bot",
+        endCounter: 200, // Adjust this number based on your statistics
+        text: "Satisfied customers with the bot",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 1500, // Ajusta este número según tus estadísticas
-        text: "Interacciones realizadas por el bot",
+        endCounter: 1500, // Adjust this number based on your statistics
+        text: "Interactions carried out by the bot",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 50, // Ajusta este número según tus estadísticas
-        text: "Funciones de automatización disponibles",
+        endCounter: 50, // Adjust this number based on your statistics
+        text: "Available automation functions",
         lineRight: false,
         lineRightMobile: false,
     },
 ];
 
-// Datos de servicios ofrecidos por el bot
+// Data of services offered by the bot
 export const serviceData = [
     {
-        icon: <Crop />, // Reemplaza con el icono adecuado
-        title: "Atención al Cliente",
-        description: "Brindamos respuestas instantáneas y soporte continuo a tus clientes para mejorar su experiencia.",
+        icon: <Crop />, // Replace with the appropriate icon
+        title: "Customer Support",
+        description: "We provide instant responses and continuous support to your customers to enhance their experience.",
     },
     {
-        icon: <Pencil />, // Reemplaza con el icono adecuado
-        title: "Asistencia en Ventas",
-        description: "Nuestro bot ayuda a guiar a los clientes a través del proceso de compra, aumentando la tasa de conversión.",
+        icon: <Pencil />, // Replace with the appropriate icon
+        title: "Sales Assistance",
+        description: "Our bot helps guide customers through the buying process, increasing conversion rates.",
     },
     {
-        icon: <Computer />, // Reemplaza con el icono adecuado
-        title: "Recopilación de Datos",
-        description: "El bot recopila información valiosa sobre tus clientes, permitiendo estrategias de marketing más efectivas.",
+        icon: <Computer />, // Replace with the appropriate icon
+        title: "Data Collection",
+        description: "The bot collects valuable information about your customers, enabling more effective marketing strategies.",
     },
     {
-        icon: <Book />, // Reemplaza con el icono adecuado
-        title: "Feedback del Cliente",
-        description: "Recopilamos opiniones y comentarios de los usuarios para mejorar constantemente los servicios ofrecidos.",
+        icon: <Book />, // Replace with the appropriate icon
+        title: "Customer Feedback",
+        description: "We collect opinions and comments from users to continuously improve the services offered.",
     },
     {
-        icon: <Rocket />, // Reemplaza con el icono adecuado
-        title: "Integraciones Sencillas",
-        description: "El bot se integra fácilmente con otras plataformas y herramientas que utilizas, mejorando la eficiencia.",
-    },
-];
-
-
-export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
-];
-
-export const dataTestimonials = [
-    {
-        id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
-    },
-    {
-        id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
-    },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
+        icon: <Rocket />, // Replace with the appropriate icon
+        title: "Easy Integrations",
+        description: "The bot easily integrates with other platforms and tools you use, improving efficiency.",
     },
 ];
